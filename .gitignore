@@ -1,0 +1,37 @@
+# dependencies
+/node_modules
+/.pnpm-store
+
+# Next.js
+/.next
+/out
+
+# tests
+/coverage
+/playwright-report
+/test-results
+/blob-report
+
+# local configuration
+.env*
+!.env.example
+
+# system and editor files
+.DS_Store
+*.pem
+
+# logs
+*.log
+
+# local tooling and editors
+/.vercel
+/.turbo
+.eslintcache
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
